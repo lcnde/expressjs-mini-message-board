@@ -7,5 +7,11 @@
   <body>
     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
+    <a href="/new">Write new message</a>
+    <% messages.map( e => { %>
+      <h2><%= e.text %></h2>
+      <p><%= e.user %> - <%= e.added %></p>
+      <hr>
+    <% }) %>
   </body>
 </html>
