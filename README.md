@@ -13,4 +13,9 @@ App created with command:
 $ npx express-generator --view=ejs express-mini-message-board
 ```
 
-DEBUG=express-mini-message-board:* npm start
+#
+
+The app has a simple form that adds messages to an array declared inside `index.js`.
+
+
+
